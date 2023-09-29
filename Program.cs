@@ -6,9 +6,8 @@ class Program
 {
     static void Main()
     {
-        int width = 7680;  // Increased width  int width = 3840;  // Increased width
-                           //int height = 2160;
-        int height = 4320; // Increased height
+        int width = 7680;  
+        int height = 4320; 
 
         // Create a bitmap to draw on
         using (Bitmap bitmap = new Bitmap(width, height))
